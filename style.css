@@ -1,0 +1,101 @@
+.title {
+	font-size: 2.5em;
+}
+
+
+.titlepic {
+	background-image: url("https://static.pexels.com/photos/1398/food-vegetables-meal-kitchen-medium.jpg");
+	background-size: cover;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+	color: #F54F10;
+	border: 2px solid #F54F10;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.phov:hover {
+	font-size: 140%;
+	transition-duration font-size: 1s;
+	-webkit-transform: rotate(20deg);
+	color: red;
+	font-stretch: 1.2%;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+.veg {
+	border-radius: 100%;
+	border: 5px solid #FFF;
+}
+
+.ingredientlist:hover {
+	font-size: 130%;
+	background-color: orange;
+}
+
+.ingredientlist {
+	border: 1px solid #70b8ff;
+	border-radius: 30px;
+	margin: 2px;
+	font-family: Garamond, Sans-serif;
+	text-align: center;
+	padding: 30px;
+	background-color: #FAEBD7;
+}
+
+.instruction {
+	border: 1px solid #70b8ff;
+	border-radius: 20px;
+	margin:2px;
+	font-family: Garamond, Sans-serif;
+	text-align: center;
+	padding: 30px;
+	background-color: #FAEBD7;
+}
+
+.shoppinglist {
+	text-align: center;
+	border: 1px #70b8ff dashed;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin: 2px;
+	font-family: Garamond, Sans-serif;
+	font-size: 1.5em;
+	padding: 30px;	
+}
+
+#shoplst {
+	-webkit-box-shadow: -13px 10px 6px -2px rgba(128,121,128,0.58);
+    -moz-box-shadow: -13px 10px 6px -2px rgba(128,121,128,0.58);
+    box-shadow: -13px 10px 6px -2px rgba(128,121,128,0.58);
+}
+
+
+.shplst {
+	background-image: url("https://static.pexels.com/photos/64776/pexels-photo-64776-medium.jpeg");
+	background-size: inherit;
+	padding: 20px;
+	border-radius: 20px;
+	background-size: contain;
+	font-family: Verdana, Sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	-webkit-box-shadow: -13px 10px 6px -2px rgba(128,121,128,0.58);
+	-moz-box-shadow: -13px 10px 6px -2px rgba(128,121,128,0.58);
+	box-shadow: -13px 10px 6px -2px rgba(128,121,128,0.58);
+}
+
+li:hover {
+	color: #F54F10;
+	font-size: 150%;
+	-webkit-transition: all 1s ease-in;
+}
+
+.stroked {
+	text-decoration: line-through;
+}
