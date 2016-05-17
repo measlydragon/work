@@ -1,5 +1,0 @@
-def length_finder(input_array)
-  input_array.map {|string|string.length}
-end
-input_array = ["John", "Poppeye", "Doe", "Re"]
-length_finder(input_array)
